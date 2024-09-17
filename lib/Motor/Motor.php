@@ -28,7 +28,6 @@
 		 * */
 		function load($tpl){
 			$this->vista = $tpl;
-			var_dump($tpl);
 
 			if (strpos($tpl, "A") == false) {
 			    if(!file_exists('views/'.$tpl.'View.html')){
