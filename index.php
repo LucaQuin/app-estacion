@@ -29,7 +29,7 @@
 	$aux=0;
 
 	// listas de acceso por tipo de usuario
-	$seccion_dispo = ["landing", "panel"];
+	$seccion_dispo = ["landing", "panel", "detalle"];
 
 	// recorro la lista de secciones permitidas
 	foreach ($seccion_dispo as $key => $value) {
